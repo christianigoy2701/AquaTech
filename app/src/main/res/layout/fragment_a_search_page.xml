@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ASearchPage"
+    android:background="@drawable/water_drop">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/searchEditText"
+            android:layout_width="288dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:background="@drawable/loginshape"
+            android:hint="@string/search_serial_number_hint"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="500dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/fragment_box" />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/infoListView"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="210dp"
+        android:dividerHeight="35sp" />
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/inverted_fragment_box"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/inverted_fragment_box"/>
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/inverted_fragment_box"/>
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/inverted_fragment_box"/>
+
+</FrameLayout>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AProfileEditPage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/water_drop" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/fragmentBackgroundColor"/>
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="370dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/fragment_box"/>
+
+    <TextView
+        android:id="@+id/chatProfileNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:gravity="center_horizontal"
+        android:text="@string/consumer_name"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/chatProfilePictureImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/add_profile_icon"/>
+
+    <TextView
+        android:id="@+id/chatProfilePositionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="180dp"
+        android:gravity="center_horizontal"
+        android:text="@string/admin"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="280dp"
+            android:textColor="@color/light_blue_600"
+            android:textSize="20sp"
+            android:text="@string/employee_id"/>
+
+        <TextView
+            android:id="@+id/profileEditPageEmployeeIDTextView"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="002"/>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/light_blue_600"
+            android:textSize="20sp"
+            android:text="@string/username"/>
+
+        <TextView
+            android:id="@+id/profileEditPageUsernameTextView"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="Joseph123"/>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/light_blue_600"
+            android:textSize="20sp"
+            android:text="@string/address"/>
+
+        <TextView
+            android:id="@+id/profileEditPageAddressTextView"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="Cubacub Mandaue City"/>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/light_blue_600"
+            android:textSize="20sp"
+            android:text="@string/contact_number"/>
+
+        <TextView
+            android:id="@+id/profileEditPageContactNumTextView"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="123456789"/>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/light_blue_600"
+            android:textSize="20sp"
+            android:text="@string/email_address"/>
+
+        <TextView
+            android:id="@+id/profileEditPageEmailAddressTextView"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="joseph@gmail.com"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/profileEditCreateAccountButton"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="650dp"
+        android:text="@string/create_account"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp" />
+
+    <Button
+        android:id="@+id/profileEditChangePasswordButton"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="650dp"
+        android:text="@string/change_password"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp" />
+
+</FrameLayout>
