@@ -21,7 +21,7 @@
     <string name="welcome_to_aquatech">Welcome to AQUATECH</string>
     <string name="sign_in">Sign in</string>
     <string name="name">Name</string>
-    <string name="admin">Admin</string>
+    <string name="admin_header">Admin</string>
     <string name="consumer_name">Consumer Name</string>
     <string name="consumerAddress">Aurelio Alivio Sr.St.Purok 5 ,Cubacub Mandaue City</string>
     <string name="consumer_s_details">Consumer\'s Details</string>
@@ -77,4 +77,8 @@
     <string name="enter_your_meter_serial_number_hint">Enter your meter serial number</string>
     <string name="password">Password:</string>
     <string name="enter_your_password_hint">Enter your password</string>
+    <string name="meter_reader_header">Meter Reader</string>
+    <string name="submit">Submit</string>
+    <string name="water_meter_image">Water Meter Image:</string>
+    <string name="water_consumption">Water Consumption:</string>
 </resources>

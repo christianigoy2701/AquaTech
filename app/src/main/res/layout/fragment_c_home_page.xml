@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AProfilePage">
-
+    tools:context=".CHomePage">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -16,15 +15,6 @@
             android:layout_marginTop="250dp"
             android:background="@drawable/water_drop" />
 
-        <TextView
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="708dp"
-            android:layout_marginLeft="160dp"
-            android:textSize="8sp"
-            android:textColor="@color/black"
-            android:text="@string/note"
-            android:background="@color/white"/>
 
     </RelativeLayout>
 
@@ -66,36 +56,6 @@
         android:textSize="18sp"
         android:textStyle="bold"/>
 
-    <TextView
-        android:layout_width="370dp"
-        android:layout_height="150dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="260dp"
-        android:background="@drawable/fragment_box"/>
-
-    <TextView
-        android:layout_width="370dp"
-        android:layout_height="150dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="535dp"
-        android:background="@drawable/fragment_box"/>
-
-    <TextView
-        android:layout_width="355dp"
-        android:layout_height="198dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="550dp"
-        android:background="@drawable/whitebackground" />
-
-    <TextView
-        android:layout_width="150dp"
-        android:layout_height="25dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="265dp"
-        android:text="@string/consumer_s_details"
-        android:textColor="@color/black"
-        android:textStyle="bold"/>
-
     <TableLayout
         android:layout_width="350dp"
         android:layout_height="wrap_content"
@@ -106,177 +66,16 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="15sp"
-                android:textColor="@color/black"
-                android:text="@string/account_number"
-                />
-            <TextView
-                android:id="@+id/profilePageAccountNumTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:paddingStart="20dp"
-                android:text="00000"
-                />
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="15sp"
-                android:textColor="@color/black"
-                android:text="@string/meter_serial_number"
-                />
-            <TextView
-                android:id="@+id/profilePageMeterSerialNumTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:paddingStart="20dp"
-                android:text="00000"
-                />
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:text="@string/pump_number"
-                />
-            <TextView
-                android:id="@+id/profilePagePumpNumTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:paddingStart="20dp"
-                android:text="00000"
-                />
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:text="@string/email_address"
-                />
-            <TextView
-                android:id="@+id/profilePageEmailAddTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:paddingStart="20dp"
-                android:text="email"
-                />
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:text="@string/contact_number"
-                />
-            <TextView
-                android:id="@+id/profilePageContactNumTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:paddingStart="20dp"
-                android:text="00000"
-                />
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:text="@string/date_applied"
-                />
-            <TextView
-                android:id="@+id/profilePageDateAppliedTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:paddingStart="20dp"
-                android:text="00-00-0000"
-                />
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:text="@string/previous_water_consumption"
-                />
-            <TextView
-                android:id="@+id/profilePagePreviousWaterConsumptionTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:paddingStart="20dp"
-                android:text="00-00-0000"
-                />
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:text="@string/balance_payment"
-                />
-            <TextView
-                android:id="@+id/profilePageBalancePaymentTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:paddingStart="20dp"
-                android:text="00000"
-                />
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:textSize="15dp"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:paddingStart="20dp"
-                />
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:text="@string/date_billed"/>
+        </TableRow>
+
+        <TableRow>
+            <Spinner
+                android:id="@+id/profilePageDateBilledSpinner"
+                android:layout_width="150dp"
+                android:layout_height="45dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -284,29 +83,36 @@
                 android:textSize="15sp"
                 android:text="@string/meter_reader_image"/>
         </TableRow>
-
-        <TableRow>
-            <Spinner
-                android:id="@+id/profilePageDateBilledSpinner"
-                android:layout_width="wrap_content"
-                android:layout_height="45dp"/>
-        </TableRow>
     </TableLayout>
 
     <ImageView
         android:id="@+id/profilePageMeterReaderImageView"
         android:layout_width="20pt"
         android:layout_height="40dp"
-        android:layout_marginLeft="265dp"
-        android:layout_marginTop="490dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="300dp"
         android:backgroundTintMode="screen"
         android:background="@drawable/add_image_icon"/>
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/fragment_box"/>
+
+    <TextView
+        android:layout_width="355dp"
+        android:layout_height="198dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/whitebackground" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="540dp"
+        android:layout_marginTop="365dp"
         android:textSize="10sp"
         android:text="@string/this_is_your_bill"
         android:textColor="@color/black"
@@ -317,7 +123,7 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="558dp">
+        android:layout_marginTop="390dp">
 
         <TableRow>
             <TextView
@@ -715,5 +521,15 @@
                 />
         </TableRow>
     </TableLayout>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="160dp"
+        android:textSize="8sp"
+        android:textColor="@color/black"
+        android:text="@string/note"
+        android:background="@color/white"/>
 
 </FrameLayout>
